@@ -1,6 +1,3 @@
-  *  Download Board:
- *  For ESP8266 NodeMCU (2.5.1): https://github.com/esp8266/Arduino
- *  For ESP32                  : https://github.com/espressif/arduino-esp32
 
 
 
