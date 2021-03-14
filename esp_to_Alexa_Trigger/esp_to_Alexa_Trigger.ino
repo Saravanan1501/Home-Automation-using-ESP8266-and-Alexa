@@ -121,36 +121,6 @@ void thirdLightChanged(uint8_t brightness)
   }
 }
 
-void fourthLightChanged(uint8_t brightness)
-{
-  //Control the device 
-  if (brightness == 255)
-    {
-      digitalWrite(RelayPin4, HIGH);
-      Serial.println("Device4 ON");
-    }
-  else
-  {
-    digitalWrite(RelayPin4, LOW);
-    Serial.println("Device4 OFF");
-  }
-}
-
-void fifthLightChanged(uint8_t brightness)
-{
-  //Control the device 
-  if (brightness == 255)
-    {
-      digitalWrite(RelayPin5, HIGH);
-      Serial.println("Device5 ON");
-    }
-  else
-  {
-    digitalWrite(RelayPin5, LOW);
-    Serial.println("Device5 OFF");
-  }
-}
-
 // connect to wifi – returns true if successful or false if not
 boolean connectWifi()
 {
